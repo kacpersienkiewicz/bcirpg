@@ -7,14 +7,14 @@ class_name Die
 var numFaces: int
 
 #Class constructor
-func _init(value):
+func _init(value: int):
 	numFaces = value
 
 #returns an integer value of the rolled result (assuming the die is a valid type)
 func rollDie():
 	randomize()
 	
-	var rolledNum
+	var rolledNum: int
 	rolledNum = randi() % numFaces + 1
 	return rolledNum
 		
