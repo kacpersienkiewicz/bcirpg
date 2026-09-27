@@ -1,8 +1,8 @@
 extends Node
 
 
-var bIsDarkThemeOn = false
-var settingsFile = "user://settings.cfg"
+var bIsDarkThemeOn: bool = false
+var settingsFile: String = "user://settings.cfg"
 var playerSettingsSingleton = PlayerSettingsTemplate.new()
 
 
